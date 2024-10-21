@@ -17,15 +17,16 @@ Antes de ejecutar las pruebas, asegúrate de tener instalados los siguientes pro
 1. **Clona el Repositorio**:
    Abre una terminal y clona el repositorio usando el siguiente comando:
  
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/bandresJar/SerenityE2E
 2. **Navega a la Carpeta del Proyecto:
 
-    cd <NOMBRE_DEL_DIRECTORIO>
+    cd SerenityE2E
 3. ** Configura el WebDriver: Asegúrate de tener el WebDriver correspondiente a tu navegador en la carpeta del proyecto o en el PATH de tu sistema.
 
 3. **Ejecuta las Pruebas: Utiliza Gradle para ejecutar las pruebas. En la terminal, ejecuta:
 
 ./gradlew test
+
 4. ** Verifica los Resultados: Los resultados de las pruebas se generarán en el directorio build/reports/tests/test/index.html. Abre este archivo en tu navegador para ver los detalles de las pruebas.
 
 ## Estructura del Proyecto
