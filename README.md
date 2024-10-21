@@ -23,13 +23,13 @@ Antes de ejecutar las pruebas, asegúrate de tener instalados los siguientes pro
     cd SerenityE2E
 3. ** Configura el WebDriver: Asegúrate de tener el WebDriver correspondiente a tu navegador en la carpeta del proyecto o en el PATH de tu sistema.
 
-3. **Ejecuta las Pruebas: Utiliza Gradle para ejecutar las pruebas. En la terminal, ejecuta:
+4. **Ejecuta las Pruebas: Utiliza Gradle para ejecutar las pruebas. En la terminal, ejecuta:
 
 ./gradlew test
 
-4. ** Verifica los Resultados: Los resultados de las pruebas se generarán en el directorio build/reports/tests/test/index.html. Abre este archivo en tu navegador para ver los detalles de las pruebas.
+5. ** Verifica los Resultados: Los resultados de las pruebas se generarán en el directorio build/reports/tests/test/index.html. Abre este archivo en tu navegador para ver los detalles de las pruebas.
 
 ## Estructura del Proyecto
-src/main/java: Contiene el código fuente del proyecto.
-src/test/java: Contiene las pruebas automatizadas y las definiciones de los pasos.
-src/test/resources: Contiene los archivos de características (feature files) y recursos necesarios para las pruebas.
+1. **src/main/java: Contiene el código fuente del proyecto.
+2. **src/test/java: Contiene las pruebas automatizadas y las definiciones de los pasos.
+3. **src/test/resources: Contiene los archivos de características (feature files) y recursos necesarios para las pruebas.
