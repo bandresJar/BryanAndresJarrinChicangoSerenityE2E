@@ -23,7 +23,6 @@ public class PurchaseFlowStepDefinitions {
         OnStage.setTheStage(new net.serenitybdd.screenplay.actors.Stage(new Cast()));
         Actor usuario = OnStage.theActorCalled("Usuario"); // Nombra al actor
 
-        // Permitir que el actor navegue por la web
         usuario.can(BrowseTheWeb.with(SerenityWebdriverManager.inThisTestThread().getCurrentDriver()));
     }
 
