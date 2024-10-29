@@ -56,9 +56,9 @@ public class PurchaseFlowStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(FinalizePurchase.orderCompletion());
     }
 
-    @When("el usuario llena los datos de envio")
-    public void elUsuarioLlenaLosDatosDeEnvio() {
-        OnStage.theActorInTheSpotlight().attemptsTo(CompletePurchaseForm.withDetails("Andres", "Jarrin", "176178"));
+     @When("el usuario llena los datos de envio con nombre {string}, apellido {string} y codigo postal {string}")
+    public void elUsuarioLlenaLosDatosDeEnvio(String firstName, String lastName, String postalCode) {
+        OnStage.theActorInTheSpotlight().attemptsTo(CompletePurchaseForm.withDetails(firstName, lastName, postalCode));
     }
 
     @When("el usuario acepta la compra")
